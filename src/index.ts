@@ -5,3 +5,5 @@ export * from "./common/db.connection"
 export * from "./common/not.authorized"
 export * from "./common/not.found"
 export * from "./common/request.validation.error"
+
+export * from "./middleware/error-handler"
