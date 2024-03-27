@@ -1,0 +1,20 @@
+{
+  "name": "@nabeelktr/error-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "cookie-session": "^2.1.0",
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1"
+  }
+}
