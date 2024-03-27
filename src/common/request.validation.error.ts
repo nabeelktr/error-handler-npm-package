@@ -2,7 +2,7 @@ import { ValidationError } from "express-validator";
 import { CustomError } from "../base/custom.error";
 
 export class RequestValidationError extends CustomError{
-    statusCode: 400;
+    statusCode = 400;
 
     constructor(public errors: ValidationError[]){
         super("Invalid Login Parameters.")

@@ -1,7 +1,7 @@
 import { CustomError } from "../base/custom.error";
 
 export class NotFoundError extends CustomError {
-  statusCode: 404;
+  statusCode = 404;
 
   constructor() {
     super("Not Found Error.");
